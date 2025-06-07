@@ -1,0 +1,333 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+p {
+    font-family: 'Poppins', sans-serif;
+  }
+* {
+    /* display: flex; */
+    margin: 0px;
+    padding: 0px;
+    /* width: 100px; */
+}
+.poppins-thin-italic {
+  font-family: "Poppins", sans-serif;
+  font-weight: 100;
+  font-style: italic;
+}
+header {
+    display: flex;
+    /* align-items: center; */
+    padding-left: 190px;
+    padding-top: 30px;
+    background: url(https://b.zmtcdn.com/web_assets/81f3ff974d82520780078ba1cfbd453a1583259680.png);
+    background-position: -71px -152px;
+    color: white;
+    flex-direction: column;
+    padding-bottom: 70px;
+}
+
+h5 {
+    padding-right: 700px;
+}
+
+.allLink {
+    padding-left: 400px;
+    color: white;
+}
+
+.allLink a {
+    padding-left: 40px;
+    text-decoration: none;
+    color: white;
+}
+
+/* .logo {
+    font-size: 80px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    padding-left: 290px;
+} */
+
+.logo img{
+    height: 40px;
+    width: 200px;
+    margin-left: 30%;
+    padding-bottom: 20px;
+    padding-top: 20px;
+}
+
+.tagline { 
+    margin-bottom: 20px;
+    padding-left: 150px;
+}
+.tagline p{
+    font-size: 27px; 
+}
+
+.search-bar {
+    display: flex;
+    background: white;
+    border-radius: 8px;
+    overflow: hidden;
+    width: 600px;
+    height: 48px;
+    margin-left: 150px;
+}
+
+.search-bar input {
+    border: none;
+    padding: 15px;
+    font-size: 16px;
+    flex-grow: 1;
+    outline: none;
+}
+
+.search-bar button {
+    color: white;
+    border: none;
+    padding: 5px 20px;
+    cursor: pointer;
+}
+
+/* .search-bar button:hover {
+    background-color: #e04343;
+} */
+.button-with-options select {
+    background: transparent;
+    border: none;
+    color: black;
+    font-size: 16px;
+    /* cursor: pointer; */
+    /* appearance: none;  */
+    padding: 5px;
+}
+
+.button-with-options select:hover {
+    background: transparent;
+}
+
+
+.navbar2 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 5px 0px 90px 10px;
+}
+
+.nav2Img img {
+    height: 140px;
+    width: 300px;
+    border-radius:10px ;
+    margin-left: 30px;
+}
+.nav2Img p{
+    padding-left: 40px;
+}
+
+h2{
+    padding-left: 120px;
+}
+.navbar3{
+    display: flex;
+    align-items: center;
+    padding-left: 120px;
+    font-size: 15px;
+
+}
+.link{
+padding-left: 140px;
+}
+.link a{
+    color: red;
+    text-decoration: none;
+}
+/* .pic img{
+    height:270px;
+    width: 200px;
+    border-radius: 5px;
+} */
+.container{
+    display: flex;
+    align-items: center;
+    padding-left: 100px;
+    padding-top: 20px;
+    padding-bottom: 90px;
+}
+.card{
+    padding-left: 10px;
+}
+.card-content{
+background:url(https://b.zmtcdn.com/data/collections/684397cd092de6a98862220e8cc40aca_1709810207.png?output-format=webp);
+height:270px;
+width: 200px;
+border-radius: 5px;
+background-size: cover;
+}
+.card-title{
+    color: white;
+    padding-top: 220px;
+    padding-left: 20px;
+}
+.card-subtitle{
+    color: white;
+    padding-left: 20px;
+}
+
+h1{
+    margin-left: 120px;   
+}
+.location{
+    padding-bottom: 90px;
+}
+.location1{
+    display: flex;
+    align-items: center;
+    margin-left: 105px; 
+    margin-top: 30px; 
+}
+.button1 button{
+height: 60px;
+width: 320px;
+border-radius: 5px;
+border: 1px solid;
+outline: none;
+border: none;
+background-color: rgb(241, 235, 235);
+margin-left: 15px;
+}
+.button1 button p{
+    padding-right: 200px;
+    font-size: 15px;
+    padding-top: 5px;
+}
+/* .button1 button i{
+    padding-left: 220px;
+    
+} */
+.button2{
+    display: block;
+}
+
+.location2{
+    display: flex;
+    align-items: center;
+    margin-left: 105px; 
+    margin-top: 10px; 
+}
+
+
+.getZomato{
+    display: flex;
+    align-items: center;
+    margin-left:270px ;
+    margin-bottom: 100px;
+}
+.phone img{
+    height: 370px;
+    width: 340px;
+}
+.zomatoForm{
+    margin-bottom: 70px;
+    margin-left: 30px;
+}
+.zomatoForm img{
+    /* padding-right: 130px; */
+    height: 30px;
+    width: 90px;
+    margin-left: 5px;
+}
+.zomatoForm button{
+    margin-left: 5px;
+    height: 34px;
+    width: 120px;
+    border-radius: 5px;
+    background-color: lightcoral;
+    border: none;
+    color: white;
+}
+
+.explore{
+    margin-left: 120px;
+    padding-bottom: 40px;
+}
+.explore p{
+    border: 1px solid;
+    height: 40px;
+    width: 1000px;
+    margin-top: 17px;
+    padding-top: 15px;
+    padding-left: 19px;
+    background-color: rgb(241, 235, 235);
+    border-radius: 5px;
+}
+
+.footer{
+    background-color:rgb(241, 235, 235);
+    /* margin-bottom: 25px; */
+    padding-top: 40px;
+    padding-bottom: 30px;
+}
+.header{
+    display: flex;
+    align-items: center;
+}
+.logo1{
+    margin-left: 120px;
+}
+.logo1 img{
+    height: 20px;
+    width: 100px;
+    }
+
+.logo2{
+    margin-left: 700px;
+    display: flex;
+}
+.logo2 button{
+    height: 30px;
+    width: 90px;
+    border: 1px solid;
+    border-radius: 5px;
+    margin-left: 15px;
+}
+
+.aboutSection{
+    margin-left: 120px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    display: flex;
+}
+
+
+.zomato p{
+    padding-bottom: 10px;
+}
+.zomato a{
+    display: block;
+    text-decoration: none;
+    color: gray;
+}
+ 
+.zomato1{
+    margin-left: 100px;
+}
+.zomato1 p{
+    padding-bottom: 10px;
+}
+.zomato1 a{
+    display: block;
+    text-decoration: none;
+    color: gray;
+}
+.zomato1 img{
+    height: 30px;
+    width: 90px;
+}
+
+.lastfooter{
+    font-size: 11px;
+    color: grey;
+    background-color:rgb(241, 235, 235);
+    padding-left: 120px;
+}
+

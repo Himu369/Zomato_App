@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Radio Button Example</title>
+</head>
+<body>
+    <h2>Choose your favorite color:</h2>
+    
+    <form>
+        <label>
+            <input type="radio" name="color" value="red">
+            Red
+        </label><br>
+
+        <label>
+            <input type="radio" name="color" value="blue">
+            Blue
+        </label><br>
+
+        <label>
+            <input type="radio" name="color" value="green">
+            Green
+        </label><br>
+
+        <input type="submit" value="Submit">
+    </form>
+</body>
+</html>
+
+
+function swapCase(str) {
+    let result = "";
+    
+    for (let i = 0; i < str.length; i++) {
+        let charCode = str.charCodeAt(i);
+        
+        // Check if the character is a lowercase letter (ASCII: 97-122)
+        if (charCode >= 97 && charCode <= 122) {
+            result += String.fromCharCode(charCode - 32); // Convert to uppercase
+        } 
+        // Check if the character is an uppercase letter (ASCII: 65-90)
+        else if (charCode >= 65 && charCode <= 90) {
+            result += String.fromCharCode(charCode + 32); // Convert to lowercase
+        } 
+        else {
+            result += str[i]; // Keep non-alphabet characters unchanged
+        }
+    }
+    
+    return result;
+}
+
+// Example usage:
+console.log(swapCase("Hello World!")); // Output: hELLO wORLD!
+
+
+<!-- 
+
+String.fromCharCode(num1, num2, ..., numN)
+It takes one or more numeric Unicode values and returns the corresponding characters.
+Example Usage:
+javascript
+Copy
+Edit
+console.log(String.fromCharCode(65));  // Output: 'A' 
+
+-->
+
